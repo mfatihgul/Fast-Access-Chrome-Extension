@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Fast Access",
+    "description": "Customizable fast access links and pages",
+    "version": "1.0.0",
+    "icons": {"128": "icon_128black-transformed.png"},
+    "browser_action": {
+        "default_icon": "icon_128black-transformed.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage"]
+}
